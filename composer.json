@@ -1,0 +1,30 @@
+{
+    "name": "mphpmaster/laravel-nova-injector",
+    "description": "Laravel nova card to inject view or text into nova resource.\n\n",
+    "keywords": [
+        "laravel",
+        "nova",
+        "resource"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "MPhpMaster\\LaravelNovaInjector\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MPhpMaster\\LaravelNovaInjector\\LaravelNovaInjectorServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
