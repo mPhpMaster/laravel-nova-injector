@@ -16,7 +16,7 @@ class LaravelNovaInjector extends Card
         TLaravelNovaInjectorCard;
 
     /** @var string */
-    public $component = 'LaravelNovaInjector';
+    public $component = 'laravel-nova-injector';
     /** @var string */
     public $width = '1/2';
 

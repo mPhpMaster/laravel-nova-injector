@@ -21,7 +21,7 @@ class LaravelNovaInjectorServiceProvider extends ServiceProvider
         });
 
         Nova::serving(function (ServingNova $event) {
-            Nova::script('LaravelNovaInjector', __DIR__.'/../dist/js/LaravelNovaInjector.js');
+            Nova::script('LaravelNovaInjector', __DIR__.'/../dist/js/laravel-nova-injector.js');
         });
     }
 

@@ -2,7 +2,7 @@ let mix = require('laravel-mix')
 
 mix
     .setPublicPath('dist')
-    .js('resources/js/card.js', 'js')
+    .js('resources/js/laravel-nova-injector.js', 'js')
     // .sass('resources/sass/card.scss', 'css')
     // .webpackConfig({
     //     resolve: {
